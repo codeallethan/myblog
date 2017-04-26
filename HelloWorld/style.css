@@ -1,0 +1,8 @@
+h1 {
+	color: salmon;
+	font-family: Helvetica;
+}
+
+#myCanvas {
+	border: 1px solid black;
+}

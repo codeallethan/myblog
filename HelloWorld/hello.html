@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello World!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <h1>Hello World!</h1>
+     <canvas id="myCanvas" width="300" height="300"></canvas>
+     <script>
+     var Kelvin = document.getElementById("myCanvas");
+     var Kelvintx = Kelvin.getContext("2d");
+     //Kelvintx.moveTo(0,0);
+     //Kelvintx.lineTo(200,200);
+     //Kelvintx.stroke();
+     Kelvintx.fillStyle = "rgb(0,100,100)";
+     Kelvintx.fillRect(100,100,100,100);
+     Kelvintx.strokeStyle = "rgb(0,100,100)";
+     Kelvintx.strokeRect(80,80,140,140);
+     Kelvintx.clearRect(120,120,60,60);
+     </script>
+</body>
+</html>
