@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+	<title>Canvas Image</title>
+	<canvas id="myCanvas" width= "800", height = "800"></canvas>
+	<script>
+	function draw(){
+		var ctx = document.getElementById("myCanvas").getContext("2d");
+		var img = new Image();
+		img.src = "Ampharos.jpeg";
+
+		img.onload = function(){
+			ctx.drawImage(img, 300, 200, 100, 100);
+		}
+	}
+	</script>
+</head>
+<body onLoad = "draw()">
+
+</body>
+</html>
